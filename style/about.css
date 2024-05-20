@@ -1,0 +1,8 @@
+#about{
+    font: var(--fourbtnfont);
+    font-weight: 600;
+    padding: 15px;
+    color: var(--white1);
+    background-color: var(--blue1);
+    border-radius: 100px;
+  }
