@@ -28,6 +28,10 @@ document
   .querySelector(".close")
   .addEventListener("click", closeConnect);
 
+  document
+  .querySelector(".hamservice")
+  .addEventListener("click", closeConnect);
+
 function closeConnect() {
   document.querySelector(".hamnav").classList.add("hide");
 }
