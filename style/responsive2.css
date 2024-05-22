@@ -1,4 +1,6 @@
 :root{
+    --r2hamnav: normal 400 28px Poppins, sans-serif;
+    --r2bekind:90px Climate Crisis, sans-serif;
     --r2launchdanzu:155px Climate Crisis, sans-serif;
     --r2highfont:65px Climate Crisis, sans-serif;
     --r2subhighfont: normal 700 28px Prompt, sans-serif;
@@ -47,6 +49,10 @@
     font: var(--subhighfont) ;
     font-size: 28px;
     display: block;
+  }
+
+  .hamnav--btn{
+    font: var(--r2hamnav);
   }
   
     /*Navbar*/
@@ -178,6 +184,52 @@
         backdrop-filter: blur(10px);
         transition: 0.5s;
       }
+
+                /*BE KIND*/
+.bekind{
+  width: 700px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px 0px;
+  transition: 0.5s;
+}
+
+@keyframes textShine {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.bekind h2{
+  line-height: 90px;
+  font: var(--r2bekind);
+  background: linear-gradient(
+    to right,
+    #ffd000 20%,
+    #ffc300 30%,
+    #ffb700 70%,
+    #ffaa00 80%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  background-size: 500% auto;
+  animation: textShine 5s ease-in-out infinite alternate;
+  transition: 0.5s;
+}
+
+.bekind p{
+  font: var(--r2subhighfont);
+  color: var(--black2);
+  letter-spacing: 5px;
+}
 
       /*Testimonial*/
 
