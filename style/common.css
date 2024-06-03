@@ -661,11 +661,26 @@ body{
 
 /*Testimonial*/
 
+@keyframes appear{
+  from{
+    opacity: 0;
+    scale: 0.7;
+  }
+  to{
+    opacity: 1;
+    scale: 1;
+  }
+}
+
 .swiper {
   /*margin-top: 50px;*/
   width:1080px;
   background-color: var(--yellow1);
   border-radius: 32px;
+  /*Animation*/
+  animation: appear 5s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
 }
 
 .testy{
@@ -745,6 +760,10 @@ body{
   height: 666px;
   margin-top:50px;
   border-radius: 32px;
+  /*Animation*/
+  animation: appear 5s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
 }
 
 .launch-content{
@@ -971,6 +990,10 @@ body{
   justify-content: center;
   align-items: center;
   padding: 25px;
+  /*Animation*/
+  animation: appear 5s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
 }
 
 .howwework img{
@@ -982,6 +1005,10 @@ width: 980px;
 
 .offerbundle{
   width: 1080px;
+  /*Animation*/
+  animation: appear 5s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
 }
 .offer-prices{
   width: 1080px;
@@ -1053,6 +1080,10 @@ width: 980px;
   width:1080px;
   margin: 20px 0px 40px 0px; 
   border-radius: 32px;
+  /*Animation*/
+  animation: appear 5s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
 }
 
 .abouttext{
@@ -1070,6 +1101,10 @@ width: 980px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  /*Animation*/
+  animation: appear 5s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
 }
 
 
@@ -1142,6 +1177,10 @@ width: 980px;
   align-items: center;
   margin-top: 20px;
   border-radius: 32px;
+  /*Animation*/
+  animation: appear 5s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
 }
 
 .portfoliocard a{
