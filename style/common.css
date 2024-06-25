@@ -1265,6 +1265,13 @@ width: 980px;
   background-position: center;
 }
 
+.pro10{
+  background-image: url("../assest/aidit.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 /*Project Page*/
 
 .project{
