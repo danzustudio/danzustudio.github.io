@@ -1272,6 +1272,13 @@ width: 980px;
   background-position: center;
 }
 
+.pro11{
+  background-image: url("../assest/dailydesign.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 /*Project Page*/
 
 .project{
