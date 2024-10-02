@@ -1291,6 +1291,13 @@ body {
   background-position: center;
 }
 
+.pro12 {
+  background-image: url("../assest/read.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 /*Project Page*/
 
 .project {
